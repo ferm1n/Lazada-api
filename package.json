@@ -1,0 +1,29 @@
+{
+  "name": "lazada-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "@babel/runtime": "^7.11.2",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "build": "rm -rf build && webpack",
+    "start": "nodemon ./build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
